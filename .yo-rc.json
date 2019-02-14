@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.uaa.auth",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "uaa",
+    "baseName": "uaa",
+    "packageName": "com.uaa.auth",
+    "packageFolder": "com/uaa/auth",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZGE0Zjc1YmJmOWQ0MjU1MGU2ZThlMGI0YTgzMWE1OTU4MWFhYjQ1ZGNmMzBjMTY4ZDkzYzM1MGVhMDhjMTQwMTIyOTdlNzFhNjg0ODNjNjBmOGFlY2FkZWUzM2VmNDVjOTkzY2IzOWE4OGMyODA4NDVkNWU3OGU2NGU3NTk1YTk=",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "id"
+    ],
+    "skipClient": true
+  }
+}
