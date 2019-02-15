@@ -1,1 +1,0 @@
-web: java -jar target/uaa-0.0.1-SNAPSHOT.war --server.port=80 --jhipster.registry.password=admin

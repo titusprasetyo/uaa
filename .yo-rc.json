@@ -35,6 +35,8 @@
       "en",
       "id"
     ],
-    "skipClient": true
+    "skipClient": true,
+    "herokuAppName": "uaa-auth-cli",
+    "herokuDeployType": "git"
   }
 }
