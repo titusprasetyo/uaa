@@ -1,1 +1,1 @@
-web: java -jar target/uaa-0.0.1-SNAPSHOT.war
+web: java $JAVA_OPTS -jar target/*.war --spring.profiles.active=dev,swagger,heroku --server.port=$PORT
