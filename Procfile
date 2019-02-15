@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/*.war --spring.profiles.active=dev,swagger,heroku --server.port=$PORT
+web: java $JAVA_OPTS -jar target/*.war --spring.profiles.active=dev,heroku --server.port=$PORT
